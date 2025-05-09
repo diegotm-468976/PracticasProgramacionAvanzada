@@ -6,5 +6,9 @@ print(f"Matriz original: \n{H}")
 
 #Obtenemos las matrices transpuestas
 H_T = [H[i].T for i in range(H.shape[0])]
+
+#Imprimimos la matriz transpuesta 1
 print (f"Plano 1:\n{H_T[0]}")
+
+#Imprimimos la matriz transpuesta 2
 print (f"Plano 2:\n{H_T[1]}")
